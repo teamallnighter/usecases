@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Dream Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- External CSS libraries -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.selectBox.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/dropzone.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/rangeslider.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/animate.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/leaflet.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/slick.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/slick-theme.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/slick-theme.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/map.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" >
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="assets/css/skins/default.css">
+
+</head>
+<body id="top">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDTWJ3Z"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="page_loader"></div>
+
+<!-- main header start -->
+<header class="main-header sticky-header" id="main-header-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light rounded">
+                    <a class="navbar-brand logo navbar-brand d-flex w-50 mr-auto" href="index.html">
+                        <img src="assets/img/logos/black-logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="navbar-collapse collapse w-100" id="navbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Properties
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="properties-list-rightside.html">List view</a></li>
+                                    <li><a class="dropdown-item" href="coming-soon.html">Map view</a></li>
+                                    <li><a class="dropdown-item" href="properties-comparison.html">Compare</a></li>
+                                </ul>
+                            </li>
+                            
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="blog-columns-3col.html" id="navbarDropdownMenuLink5" aria-haspopup="true" aria-expanded="false">
+                                    News
+                                </a>
+                                
+                            </li>
+                            <li class="nav-item dropdown megamenu-li">
+                                <a class="nav-link " href="faq-1.html" id="dropdown01"  aria-haspopup="true" aria-expanded="false">FAQ</a>
+                                
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="about-2.html" id="navbarDropdown3" role="button" aria-haspopup="true" aria-expanded="false">
+                                    About
+                                </a>
+                                
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="contact-2.html" id="navbarDropdown3" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Contact
+                                </a>
+                                
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="login.html" id="logincheck" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Log in
+                                </a>
+                                
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                                <a class="open-offcanvas nav-link" href="#">
+                                    <span></span>
+                                    <span class="fa fa-bars"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- main header end -->
+
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <h1>Property Details</h1>
+            <ul class="breadcrumbs">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Property Details</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub banner end -->
+
+<!-- Properties details page start -->
+<div class="properties-details-page content-area-15">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-xs-12 slider">
+                <div id="propertiesDetailsSlider" class="carousel properties-details-sliders slide mb-60">
+                    <div class="heading-properties">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="pull-left">
+                                    <h3 id="name" >Beautiful Single Home</h3>
+                                    <p><i class="fa fa-map-marker"></i> <span id="address"></span> </p>
+                                </div>
+                                <div class="p-r">
+                                    <h3 id="price">$420,00</h3>
+                                    <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main slider carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item carousel-item" data-slide-number="0">
+                            <img id="imageprop" src="assets/img/property-4.jpg" class="img-fluid" alt="property-4">
+                        </div>
+                        
+
+                    </div>
+                    <!-- main slider carousel nav controls -->
+                    <ul class="carousel-indicators smail-properties list-inline nav nav-justified">
+                        <!--<li class="list-inline-item active">
+                            <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#propertiesDetailsSlider">
+                                <img src="assets/img/property-4.jpg" class="img-fluid" alt="property-4">
+                            </a>
+                        </li>-->
+                        
+                    </ul>
+                </div>
+                
+                <!-- Tabbing box start -->
+                <div class="tabbing tabbing-box mb-60">
+                    <ul class="nav nav-tabs" id="carTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active show" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="false">Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false">Floor Plans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="true">Details</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" id="5-tab" data-toggle="tab" href="#5" role="tab" aria-controls="5" aria-selected="true">Location</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="tab-content" id="carTabContent">
+                        <div class="tab-pane fade active show" id="one" role="tabpanel" aria-labelledby="one-tab">
+                            <h3 class="heading">Property Description</h3>
+                           <p id="desc"> porta. Morbi tincidunt viverra pharetra.</p>
+                        </div>
+                        <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                            <div class="floor-plans mb-60">
+                                <h3 class="heading">Floor Plans</h3>
+                                
+                                <img src="assets/img/floor-plans.png" alt="floor-plans" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="tab-pane fade " id="three" role="tabpanel" aria-labelledby="three-tab">
+                            <div class="property-details">
+                                <h3 class="heading">Property Details</h3>
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <ul>
+                                            <li>
+                                                <strong>Land area:</strong> <span id="area"></span> ft2
+                                            </li>
+                                            
+                                            <li>
+                                                <strong>Bathrooms:</strong> <span id="bath"></span> 
+                                            </li>
+                                            <li>
+                                                <strong>Bedrooms:</strong> <span id="bed"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <ul>
+                            
+                                            <li>
+                                                <strong>Property Age:</strong><span id="age"></span> year(s)
+                                            </li>
+                                            <li>
+                                                <strong>Price:</strong><span id="price2"></span>
+                                            </li>
+                                            
+                                            
+                                            <li>
+                                                <strong>Pincode:</strong><span id="code"></span>
+                                            </li>
+                                    
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <ul>
+                                            <li>
+                                                <strong>City:</strong><span id="city"></span>
+                                            </li>
+
+                                            <li>
+                                                <strong>Property Owner:</strong> <span id="contact"></span>
+                                            </li>
+
+                                            <li>
+                                                <strong>Contact:</strong><span id="email"></span>
+                                            </li>
+                                            
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade " id="5" role="tabpanel" aria-labelledby="5-tab">
+                            <div class="section location">
+                                <h3 class="heading">Property Location</h3>
+                                <div id="map"></div>
+                                <!--<div class="map">
+                                    <div id="contactMap" class="contact-map"></div>
+                                </div>-->
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Amenities box start -->
+                <div class="amenities-box mb-60">
+                    <h3 class="heading" id="sell"></h3>
+                </div>
+                <!-- Features opions start -->
+                <div class="features-opions mb-60">
+                    <h3 class="heading">Features</h3>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <ul>
+                                
+                                <li id="swimming">
+                                    <i class="flaticon-swimmer"></i>
+                                    Swimming Pool
+                                </li>
+                                
+                                <li id="balcony">
+                                    <i class="flaticon-balcony-and-door"></i>
+                                    Balcony
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <ul>
+                                  
+                                <li id="parking">
+                                    <i class="flaticon-parking"></i>
+                                    Parking
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <ul>
+                                <li id="laundry">
+                                    <i class="fa fa-shirtsinbulk" aria-hidden="true"></i>
+                                    Laundry
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Comments section start -->
+                <!--<div class="comments-section">
+                    <h3 class="heading">Comments Section</h3>
+                    <ul class="comments">
+                        <li>
+                            <div class="comment">
+                                <div class="comment-author">
+                                    <a href="#">
+                                        <img src="assets/img/avatar/avatar-13.jpg" class="rounded-circle" alt="avatar-13">
+                                    </a>
+                                </div>
+                                <div class="comment-content">
+                                    <div class="comment-meta">
+                                        <div class="comment-meta-author">
+                                            Jane Doe
+                                        </div>
+                                        <div class="comment-meta-reply">
+                                            <a href="#">Reply</a>
+                                        </div>
+                                        <div class="comment-meta-date">
+                                            <span>8:42 PM 10/3/2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="comment-body">
+                                        <div class="comment-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt aliquam. Aliquam gravida massa at sem vulputate interdum et vel eros. Maecenas eros enim, tincidunt vel turpis vel, dapibus tempus nulla. Donec vel nulla dui. Pellentesque sed ante sed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="comment">
+                                        <div class="comment-author">
+                                            <a href="#">
+                                                <img src="assets/img/avatar/avatar-13.jpg" class="rounded-circle" alt="avatar-13">
+                                            </a>
+                                        </div>
+
+                                        <div class="comment-content">
+                                            <div class="comment-meta">
+                                                <div class="comment-meta-author">
+                                                    Jane Doe
+                                                </div>
+
+                                                <div class="comment-meta-reply">
+                                                    <a href="#">Reply</a>
+                                                </div>
+
+                                                <div class="comment-meta-date">
+                                                    <span>8:42 PM 10/3/2018</span>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="comment-body">
+                                                <div class="comment-rating">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half-o"></i>
+                                                    <i class="fa fa-star-o"></i>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt aliquam. Aliquam gravida massa at sem vulputate interdum et vel eros. Maecenas eros enim, tincidunt vel turpis vel, dapibus tempus nulla. Donec vel nulla dui.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="comment">
+                                <div class="comment-author">
+                                    <a href="#">
+                                        <img src="assets/img/avatar/avatar-13.jpg" class="rounded-circle" alt="avatar-13">
+                                    </a>
+                                </div>
+                                <div class="comment-content">
+                                    <div class="comment-meta">
+                                        <div class="comment-meta-author">
+                                            Jane Doe
+                                        </div>
+                                        <div class="comment-meta-reply">
+                                            <a href="#">Reply</a>
+                                        </div>
+                                        <div class="comment-meta-date">
+                                            <span>8:42 PM 10/3/2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="comment-body">
+                                        <div class="comment-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt aliquam. Aliquam gravida massa at sem vulputate interdum et vel eros. Maecenas eros enim, tincidunt vel turpis vel, dapibus tempus nulla. Donec vel nulla dui. Pellentesque.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+                -->
+
+                <div id="disqus_thread"></div>
+                <script>
+                function create_chat(chat_url)
+                {
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+                console.log(chat_url);
+                var disqus_config = function () {
+                this.page.url = chat_url;  // Replace PAGE_URL with your page's canonical URL variable
+                //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://sen-project22.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                }
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+                <!-- Contact 1 start -->
+                <!--
+                <div class="contact-3 mb-60">
+                    <h3 class="heading">Leave a Comment</h3>
+                    <div class="container">
+                        <div class="row">
+                            <form action="#" method="GET" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group name">
+                                            <input type="text" name="name" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group email">
+                                            <input type="email" name="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group subject">
+                                            <input type="text" name="subject" class="form-control" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group number">
+                                            <input type="text" name="phone" class="form-control" placeholder="Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group message">
+                                            <textarea class="form-control" name="message" placeholder="Write message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="send-btn">
+                                            <button type="submit" class="btn btn-color btn-md btn-message">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="sidebar mbl">
+
+                    
+
+                    <!-- Social list start -->
+                    <div class="social-list widget clearfix">
+                        <h5 class="sidebar-title">Follow Us</h5>
+                        <ul>
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Helping center start -->
+                    <div class="helping-center widget clearfix">
+                        <div class="media">
+                            <i class="fa fa-mobile"></i>
+                            <div class="media-body  align-self-center">
+                                <h5 class="mt-0">Helping Center</h5>
+                                <h4><a href="tel:+0477-85x6-552">+XXXX XXXX XXX</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Financing calculator  start -->
+                    <div class="contact-1 financing-calculator widget">
+                        <h5 class="sidebar-title">Mortgage Calculator</h5>
+                        <form action="#" method="GET" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label class="form-label">Property Price</label>
+                                <input style="color:black" id="prop_price" type="text" class="form-control" placeholder="36.4">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Annual Interest Rate (%)</label>
+                                <input style="color:black" id="rate" type="text" class="form-control" placeholder="10%">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Period In Months</label>
+                                <input style="color:black" id="period" type="text" class="form-control" placeholder="10">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Mortgage Value (Monthly Payment)</label>
+                                <input readonly style="color:black" id="mort_val" type="text" class="form-control">
+                            </div>
+                            <br>
+                            <div class="form-group mb-0">
+                                <button type="submit" class="btn btn-color btn-md btn-message btn-block" onclick="calculate_mortgage()">Calculate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Properties details page end -->
+
+<!-- Footer start -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                <div class="footer-item">
+                    <h4>
+                        Useful Links
+                    </h4>
+                    <ul class="links">
+                        <li>
+                            <a href="about-2.html"><i class="fa fa-angle-right"></i>About us</a>
+                        </li>
+                        
+                        <li>
+                            <a href="properties-list-rightside.html"><i class="fa fa-angle-right"></i>Properties Listing</a>
+                        </li>
+                        
+                        <li>
+                            <a href="contact-2.html"><i class="fa fa-angle-right"></i>Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="blog-columns-3col.html"><i class="fa fa-angle-right"></i>News</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-item">
+                    <h4>Contact Us</h4>
+
+                    <ul class="contact-info">
+                        <li>
+                            Address: DA-IICT, Near Reliance Chowkdi, Gandhinagar, Gujarat 382007
+
+                        </li>
+                        <li>
+                            Email: <a href="mailto:info@themevessel.com">sen.project22@gmail.com</a>
+                        </li>
+                        <li>
+                            Phone: <a href="tel:+917874788021">+91 78747 88021</a>
+                        </li>
+                        
+                    </ul>
+
+                    <ul class="social-list clearfix">
+                        <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="google"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            
+        </div>
+
+        
+    </div>
+</footer>
+<!-- Footer end -->
+
+
+
+
+<!-- Off-canvas sidebar -->
+<div class="off-canvas-sidebar">
+    <div class="off-canvas-sidebar-wrapper">
+        <div class="off-canvas-header">
+            <a class="close-offcanvas" href="#"><span class="fa fa-times"></span></a>
+        </div>
+        <div class="off-canvas-content">
+            <aside class="canvas-widget">
+                <div class="logo-sitebar text-center">
+                    <img src="assets/img/logos/logo.png" alt="logo">
+                </div>
+            </aside>
+            <aside class="canvas-widget">
+                <ul class="menu">
+                    <li class="menu-item menu-item-has-children"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="properties-list-rightside.html">Properties List</a></li>
+                    <li class="menu-item"><a href="blog-columns-3col.html">Blog</a></li>
+                    <li class="menu-item"><a href="about-2.html">About  Us</a></li>
+                    <li class="menu-item"><a href="contact-2.html">Contact Us</a></li>
+                </ul>
+            </aside>
+            <aside class="canvas-widget">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>
+
+<!-- External JS libraries -->
+<script src="assets/js/jquery-2.2.0.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.selectBox.js"></script>
+<script src="assets/js/rangeslider.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.filterizr.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/backstretch.js"></script>
+<script src="assets/js/jquery.countdown.js"></script>
+<script src="assets/js/jquery.scrollUp.js"></script>
+<script src="assets/js/particles.min.js"></script>
+<script src="assets/js/typed.min.js"></script>
+<script src="assets/js/dropzone.js"></script>
+<script src="assets/js/jquery.mb.YTPlayer.js"></script>
+<script src="assets/js/leaflet.js"></script>
+<script src="assets/js/leaflet-providers.js"></script>
+<script src="assets/js/leaflet.markercluster.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<!--<script src="assets/js/maps.js"></script>-->
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0N5pbJN10Y1oYFRd0MJ_v2g8W2QT74JE&callback=initMap" async defer></script>
+<script src="assets/js/ie-emulation-modes-warning.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script src="assets/js/initilize.js"></script>    
+<script src="assets/js/userdetails.js"></script>
+<!-- Custom JS Script -->
+<script  src="assets/js/app.js"></script>
+
+<script>
+    var map;
+
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat: -25.344, lng: 131.036};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 8, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+
+
+    $('document').ready(function(){
+
+        if(loggedin())
+        {
+            $("#logincheck").attr('href',"user-profile.html");
+            $("#logincheck").text("Profile");
+            console.log(getuserdetails());
+        }
+        else
+        {
+
+        }
+
+        let propertyId = document.location.search.substr(4);
+        let chat_url = "http://where-should-you-live.surge.sh/themevessel-item.s3-website-us-east-1.amazonaws.com/xero/properties-details.html" + "?id=" + propertyId;
+        create_chat(chat_url);
+
+        var propRef = firebase.database().ref("properties/" + propertyId);
+        propRef.on("value", function(snapshot) {
+            property = snapshot.val();
+            console.log(property);
+
+            $("#imageprop").attr("src","https://firebasestorage.googleapis.com/v0/b/where-should-you-live.appspot.com/o/images%2F"+ propertyId +"?alt=media&token=3e4b4997-6a52-4106-bc9e-34b0cd025e04");
+
+            $("#desc").text(property.detail);
+            $("#price").text("$ "+property.price);
+            $("#price2").text("$ "+property.price);
+            $("#name").text(property.name);
+            $("#area").text(property.area);
+            $("#bath").text(property.bathroom);
+            $("#bed").text(property.bedroom);
+            $("#city").text(property.city);
+            $("#age").text(property.age);
+            $("#code").text(property.code);
+            $("#contact").text(property.contact);
+            $("#email").text(property.email);
+            $("#address").text(property.address);
+
+            if(property.rent == true)
+            {
+                $("#sell").text("for Rent");
+            }
+            else
+            {
+                $("#sell").text("for Sale");
+            }
+
+            if(property.swimmingpool == false)
+            {
+                $("#swimming").hide();
+            }
+            if(property.windowcovering == false)
+            {
+                $("#balcony").hide();
+            }
+            if(property.freeparking == false)
+            {
+                $("#parking").hide();
+            }
+            if(property.laundryroom == false)
+            {
+                $("#laundry").hide();
+            }
+
+            var location = {lat: property.latitude, lng: property.longitude};
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 12, center: location});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: location, map: map});
+
+        }, function (error) {
+           console.log("Error: " + error.code);
+        });
+
+    });
+
+function calculate_mortgage()
+{
+    prop_price = document.getElementById("prop_price").value;
+    rate = document.getElementById("rate").value;
+    period = document.getElementById("period").value;
+
+
+    if(prop_price.length==0 || rate.length==0 || period.length==0)
+    {
+        window.alert("Enter the data fields");
+        return;
+    }
+
+    prop_price = parseFloat(prop_price);
+    rate = parseFloat(rate);
+    period = parseFloat(period);
+
+    if(isNaN(prop_price)||prop_price<0||isNaN(rate)||rate<0||isNaN(period)||period<0)
+    {
+        window.alert("Enter the data correctly");
+        return;
+    }
+
+    rate = rate/12;
+
+    num = (rate*((1+rate)**(period)))/(((1+rate)**(period))-1);
+    mortage_val = parseInt(prop_price*num);
+
+
+    document.getElementById("mort_val").value = mortage_val
+
+}
+
+</script>
+
+</body>
+
+</html>
